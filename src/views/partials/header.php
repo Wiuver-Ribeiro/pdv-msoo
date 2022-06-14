@@ -32,7 +32,7 @@
                         <a class="nav-link text-light" href="<?php echo $base.'/fornecedores';?>">Fornecedores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Formas de PGTOS</a>
+                        <a class="nav-link text-light" href="<?= $base.'/pagamentos';?>">Formas de PGTOS</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -40,13 +40,13 @@
                             Produtos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Cadastro de Produtos</a></li>
-                            <li><a class="dropdown-item" href="#">Cadastro de Categorias</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/produtos'; ?>">Cadastro de Produtos</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/categorias';?>">Cadastro de Categorias</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Lista de Compras</a></li>
-                            <li><a class="dropdown-item" href="#">Estoque Baixo</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/compras';?>">Lista de Compras</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/estoque'; ?>">Estoque Baixo</a></li>
                         </ul>
                     </li>
 
@@ -55,12 +55,8 @@
                             Vendas/Caixas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Cadastrar Pedido</a></li>
-                            <li><a class="dropdown-item" href="#">Cadastrar Item</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Cadastrar Funcionário</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/vendas';?>">Vendas</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Caixas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
