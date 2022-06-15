@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/dashboard';?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="<?php echo $base.'/usuarios';?>">Usuários</a>
@@ -79,7 +79,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                                <li><a class="dropdown-item" href="<?= $base.'/logout' ;?>">Logout</a></li>
                             </ul>
                         </li>
                     </ul>

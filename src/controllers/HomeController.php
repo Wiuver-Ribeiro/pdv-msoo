@@ -6,11 +6,14 @@ use \core\Controller;
 class HomeController extends Controller {
 
     public function index() {
-        $this->render('home');
+        $this->render('login');
     }
 
-    public function sobre() {
-        $this->render('sobre');
+    public function home() {
+        $this->render('home');
+    }
+    public function logout() {
+        $this->render('logout');
     }
 
 }

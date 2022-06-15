@@ -4,6 +4,10 @@ use core\Router;
 $router = new Router();
 
 $router->get('/', 'HomeController@index');
+$router->get('/dashboard', 'HomeController@home');
+$router->get('/logout', 'HomeController@logout');
+
+
 $router->get('/usuarios', 'UsuarioController@index');
 $router->get('/fornecedores', 'FornecedorController@index');
 $router->get('/pagamentos', 'FormaPagamentoController@index');
