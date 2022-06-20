@@ -5,7 +5,8 @@ use core\Router;
 $router = new Router();
 
 $router->get('/', 'HomeController@index');
-$router->get('/dashboard', 'HomeController@home');
+$router->get('/painel-adm', 'HomeController@painelAdministrativo');
+$router->get('/painel-tesoureiro', 'HomeController@painelTesoureiro');
 $router->get('/logout', 'HomeController@logout');
 
 

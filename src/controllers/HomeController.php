@@ -8,6 +8,13 @@ class HomeController extends Controller {
     public function index() {
         $this->render('login');
     }
+    public function painelAdministrativo() {
+        $this->render('painel-adm');
+    }
+
+    public function painelTesoureiro() {
+        $this->render('painel-tesoureiro');
+    }
 
     public function home() {
         $this->render('home');

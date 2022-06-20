@@ -31,7 +31,10 @@ class Controller {
     }
 
     private function renderPartial($viewName, $viewData = []) {
-        $this->_render('partials', $viewName, $viewData);
+        if($viewData == "painel-tesoureiro") {
+            $this->_render('partials/administrador', $viewName, $viewData);
+        }
+            $this->_render('partials/tesoureiro', $viewName, $viewData);
     }
 
     public function render($viewName, $viewData = []) {
