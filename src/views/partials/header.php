@@ -25,40 +25,29 @@
                     <li class="nav-item ">
                         <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/dashboard';?>">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="<?php echo $base.'/usuarios';?>">Usuários</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="<?php echo $base.'/fornecedores';?>">Fornecedores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="<?= $base.'/pagamentos';?>">Formas de PGTOS</a>
-                    </li>
-
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Produtos
+                        <a class="nav-link text-light dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?= $base.'/produtos'; ?>">Cadastro de Produtos</a></li>
-                            <li><a class="dropdown-item" href="<?= $base.'/categorias';?>">Cadastro de Categorias</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/vendas';?>">Contas à Pagar</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Contas à Receber</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="<?= $base.'/compras';?>">Lista de Compras</a></li>
-                            <li><a class="dropdown-item" href="<?= $base.'/estoque'; ?>">Estoque Baixo</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Pagar Vencidas</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Pagar Hoje</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Receber Vencidas</a></li>
+
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="<?php echo $base.'/fornecedores';?>">Movimentações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="<?= $base.'/pagamentos';?>">Compras/Vendas</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-light dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Vendas/Caixas
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?= $base.'/vendas';?>">Vendas</a></li>
-                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Caixas</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Relatórios

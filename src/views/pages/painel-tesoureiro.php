@@ -1,14 +1,14 @@
 <?php $render('header'); ?>
 
 <div class="container">
-    <h2 class="mt-3">ESTATÍSTICAS DO SISTEMA</h2>
+    <h2 class="mt-3">ESTATÍSTICAS FINANCEIRAS</h2>
     <div class="row">
         <div class="col border m-2 rounded p-4">
             <div class="d-flex justify-content-between align-items-center">
                 <ion-icon class="text-success" size="large" name="bar-chart-outline"></ion-icon>
                 <div class="row  d-flex">
-                    <h5 class="">4</h5>
-                    <h6 class="">Total de Produtos</h6>
+                    <h5 class="">R$ 250.00</h5>
+                    <h6 class="">Entradas do Dia</h6>
                 </div>
             </div>
         </div>
@@ -16,8 +16,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <ion-icon class="text-danger" size="large" name="bar-chart-outline"></ion-icon>
                 <div class="row  d-flex">
-                    <h5 class="">1</h5>
-                    <h6 class="">Estoque Baixo</h6>
+                    <h5 class="">R$ 360.00</h5>
+                    <h6 class="">Saídas do Dia</h6>
                 </div>
             </div>
         </div>
@@ -25,8 +25,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <ion-icon class="text-dark" size="large" name="bar-chart-outline"></ion-icon>
                 <div class="row  d-flex">
-                    <h5 class="">2</h5>
-                    <h6 class="">Total de Fornecedores</h6>
+                    <h5 class="">R$ -70.00</h5>
+                    <h6 class="">Saldo do Dia</h6>
                 </div>
             </div>
         </div>
@@ -34,8 +34,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <ion-icon class="text-success" size="large" name="cash-outline"></ion-icon>
                 <div class="row  d-flex">
-                    <h5 class="">2</h5>
-                    <h6 class="">Total de Vendas Dia</h6>
+                    <h5 class="">R$ 290.00</h5>
+                    <h6 class="">Wiuver Ribeiro</h6>
                 </div>
             </div>
         </div>

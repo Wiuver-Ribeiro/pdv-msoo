@@ -1,4 +1,4 @@
-<?php $render('header'); ?>
+<?php $render('headerr'); ?>
 
 <div class="container">
     <h2 class="mt-3">ESTATÍSTICAS DO SISTEMA</h2>
