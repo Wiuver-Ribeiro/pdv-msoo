@@ -1,4 +1,4 @@
-<?php $render('header'); ?>
+<?php $render('headerr'); ?>
 <div class="container mt-5">
     <!-- <button class="btn btn-secondary">Novo Compra</button> -->
     <label for="buscar">Buscar:</label>

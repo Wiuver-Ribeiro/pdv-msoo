@@ -23,4 +23,8 @@ class HomeController extends Controller {
         $this->render('logout');
     }
 
+    public function registrar() {
+        $this->render('registrar');
+    }
+
 }

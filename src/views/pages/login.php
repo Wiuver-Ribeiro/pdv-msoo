@@ -22,7 +22,7 @@
                 <button class="btn btn-primary">Login</button>
             </div>
             <div class="row pt-3 pb-3">
-                <span>Não tem uma conta? <a class="text-white" href="#">Crie uma conta</a></span>
+                <span>Não tem uma conta? <a class="text-white" href="<?= $base.'/registrar';?>">Crie uma conta</a></span>
             </div>
         </div>
     </div>
