@@ -14,7 +14,7 @@
                     <th>Usuário</th>
                     <th>Vencimento</th>
                     <th>Arquivo</th>
-                    <th>Ações</th>
+                    <th>Baixar</th>
                 </tr>
             </thead>
 
@@ -23,7 +23,7 @@
                     <td>Pago</td>
                     <td>Compra de Produtos</td>
                     <td>R$ 50.00</td>
-                    <td>Adminitrador</td>
+                    <td>Administrador</td>
                     <td>21/06/2022</td>
                     <td>Arquivo</td>
                     <td>
@@ -31,11 +31,6 @@
                             <div class="col">
                                 <button class="btn btn-primary">
                                     <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                </button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-danger">
-                                    <ion-icon name="close-circle-outline"></ion-icon>
                                 </button>
                             </div>
                         </div>

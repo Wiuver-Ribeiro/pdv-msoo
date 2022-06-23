@@ -8,6 +8,12 @@ $router->get('/', 'HomeController@index');
 $router->get('/painel-adm', 'HomeController@painelAdministrativo');
 $router->get('/painel-tesoureiro', 'HomeController@painelTesoureiro');
 $router->get('/logout', 'HomeController@logout');
+$router->get('/contasAPagar', 'ContaController@contas');
+$router->get('/contasAReceber', 'ContaController@contasReceber');
+$router->get('/contasVencidas', 'ContaController@contasVencidas');
+$router->get('/listaCompra', 'ContaController@listaCompra');
+$router->get('/listaVenda', 'ContaController@listaVenda');
+
 
 
 $router->get('/usuarios', 'UsuarioController@index');

@@ -3,7 +3,6 @@
     <div class="cols-md-3">
         <input type="text" class="form-control" placeholder="Buscar">
     </div>
-
     <div class="table-responsive mt-4">
         <table class="table table-striped table-hover table-bordered rounded">
             <thead class="thead-dark">
@@ -21,10 +20,10 @@
             <tbody>
                 <tr>
                     <td>Pago</td>
-                    <td>Compra de Produtos</td>
-                    <td>R$ 50.00</td>
-                    <td>Adminitrador</td>
-                    <td>21/06/2022</td>
+                    <td>Conta de Luz</td>
+                    <td>R$ 350.00</td>
+                    <td>Tesoureiro</td>
+                    <td>18/09/2022</td>
                     <td>Arquivo</td>
                     <td>
                         <div class="row">

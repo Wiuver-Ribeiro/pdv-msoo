@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/dba7af9f9b.js" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,29 +24,34 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                        <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/dashboard';?>">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/painel-tesoureiro';?>">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link text-light dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Contas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?= $base.'/vendas';?>">Contas à Pagar</a></li>
-                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Contas à Receber</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/contasAPagar';?>">Contas à Pagar</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/contasAReceber';?>">Contas à Receber</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Pagar Vencidas</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/contasVencidas';?>">Pagar Vencidas</a></li>
                             <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Pagar Hoje</a></li>
-                            <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Receber Vencidas</a></li>
-
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="<?php echo $base.'/fornecedores';?>">Movimentações</a>
+                        <a class="nav-link text-light" href="<?php echo $base.'/movimentacoes';?>">Movimentações</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="<?= $base.'/pagamentos';?>">Compras/Vendas</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Compras/Vendas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="<?= $base.'/listaCompra'; ?>">Lista de Compras</a></li>
+                            <li><a class="dropdown-item" href="<?= $base.'/listaVenda'; ?>">Lista de Vendas</a></li>
+                        </ul>
                     </li>
 
                     <li class="nav-item dropdown">

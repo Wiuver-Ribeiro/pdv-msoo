@@ -8,34 +8,29 @@
         <table class="table table-striped table-hover table-bordered rounded">
             <thead class="thead-dark">
                 <tr>
-                    <th>Pago</th>
-                    <th>Descrição</th>
+                    <th>Status</th>
                     <th>Valor</th>
-                    <th>Usuário</th>
-                    <th>Vencimento</th>
-                    <th>Arquivo</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Operador</th>
+                    <th>Pagamento</th>
                     <th>Ações</th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td>Pago</td>
-                    <td>Compra de Produtos</td>
-                    <td>R$ 50.00</td>
-                    <td>Adminitrador</td>
-                    <td>21/06/2022</td>
-                    <td>Arquivo</td>
+                    <td class="bg-success text-white">Concluída</td>
+                    <td>R$ 250.00</td>
+                    <td>22/06/2022</td>
+                    <td>14:35</td>
+                    <td>Administrador</td>
+                    <td>Dinheiro</td>
                     <td>
                         <div class="row">
                             <div class="col">
                                 <button class="btn btn-primary">
                                     <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                </button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-danger">
-                                    <ion-icon name="close-circle-outline"></ion-icon>
                                 </button>
                             </div>
                         </div>
