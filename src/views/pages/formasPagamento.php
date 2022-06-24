@@ -1,6 +1,8 @@
 <?php $render('headerr'); ?>
 <div class="container mt-5">
-    <button class="btn btn-secondary">Novo Forma</button>
+
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Novo Forma Pagamento</button>
+
 
     <div class="table-responsive mt-4">
         <table class="table table-striped table-hover table-bordered rounded">
@@ -70,5 +72,32 @@
             </tbody>
         </table>
     </div>
+</div>
+
+
+
+<!-- Modal-Forma de Pagamento -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastrar Forma de Pagamento:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-3">
+            <label for="nome">Código Máquina:</label>
+            <input class="form-control" type="number" placeholder="0">
+        </div>
+        <div class="row mb-3">
+            <label for="nome">Nome forma de pagamento:</label>
+            <input class="form-control" type="text" placeholder="Forma pagamento">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-success">Cadastrar</button>
+      </div>
+    </div>
+  </div>
 </div>
 <?php $render('footer'); ?>

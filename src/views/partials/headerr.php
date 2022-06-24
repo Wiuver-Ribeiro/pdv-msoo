@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                        <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/dashboard';?>">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="<?= $base.'/';?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="<?php echo $base.'/usuarios';?>">Usuários</a>
@@ -60,7 +60,7 @@
                             <li><a class="dropdown-item" href="<?= $base.'/caixas';?>">Caixas</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Relatórios
                         </a>
@@ -69,7 +69,7 @@
                             <li><a class="dropdown-item" href="#">Relatório de Compras</a></li>
                             <li><a class="dropdown-item" href="#">Relatório de Vendas</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
                 <form class="d-flex" role="search">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-3">

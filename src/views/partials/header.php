@@ -54,7 +54,7 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Relatórios
                         </a>
@@ -63,7 +63,7 @@
                             <li><a class="dropdown-item" href="#">Relatório de Compras</a></li>
                             <li><a class="dropdown-item" href="#">Relatório de Vendas</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
                 <form class="d-flex" role="search">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-3">
