@@ -6,7 +6,11 @@ use \core\Controller;
 class HomeController extends Controller {
 
     public function index() {
-        $this->render('login');
+        $this->render('links');
+    }
+
+    public function login() {
+       $this->render('login');
     }
     public function painelAdministrativo() {
         $this->render('painel-adm');

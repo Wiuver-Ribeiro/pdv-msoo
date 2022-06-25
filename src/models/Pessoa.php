@@ -1,6 +1,6 @@
 <?php
 
-abstract class Pessoa {
+ class Pessoa {
     private $nome;
     private $nivel;
     private $email;
@@ -55,4 +55,6 @@ abstract class Pessoa {
 
         return $this;
     }
+
+
 }

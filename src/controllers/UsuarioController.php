@@ -1,7 +1,13 @@
 <?php
 namespace src\controllers;
 
+
+//CONTROLLERS
 use \core\Controller;
+
+
+//MODELS
+use \src\models\Usuario;
 
 class UsuarioController extends Controller {
 
@@ -9,6 +15,12 @@ class UsuarioController extends Controller {
         $this->render('usuarios');
     }
 
+
+    public function logarController() {
+     $usuario = new Usuario();
+     $usuario->logar();
+     $this->redirect('/');
+    }
 
 
 }
